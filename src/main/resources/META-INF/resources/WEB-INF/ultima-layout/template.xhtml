@@ -24,14 +24,14 @@
     <h:body styleClass="main-body #{guestPreferences.compact ? 'layout-compact' : null}">
         
         <div class="layout-wrapper #{guestPreferences.menuLayout} #{guestPreferences.orientationRTL ? 'layout-rtl' : null}">
-            <ui:include src="./topbar.xhtml" />
-            <ui:include src="./rightpanel.xhtml" />
-            <ui:include src="./menu.xhtml" />
+            <ui:include src="topbar.xhtml" />
+            <ui:include src="rightpanel.xhtml" />
+            <ui:include src="menu.xhtml" />
             
             <div class="layout-main">
                 <ui:insert name="content"/>
                 
-                <ui:include src="./footer.xhtml" />
+                <ui:include src="footer.xhtml" />
             </div>
         </div>
         
