@@ -22,6 +22,7 @@
                 <p:commandButton id="submit" value="Submit"
                                  update="greeting-panel"
                                  oncomplete="PF('greetingDialog').show()"/>
+                <p:commandButton type="button" value="ui-icon-check" icon="ui-icon-check" />
             </h:panelGrid>
         </p:panel>
 
@@ -30,6 +31,7 @@
             <h:panelGrid id="greeting-panel" columns="1" cellpadding="4">
                 <h:outputText value="#{helloWorld.showGreeting()}"/>
             </h:panelGrid>
+
         </p:dialog>
 
     </h:form>

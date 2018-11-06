@@ -24,3 +24,5 @@
 /nbdist/
 /.nb-gradle/
 
+### Edu ###
+.sass-cache
